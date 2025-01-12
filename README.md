@@ -1,0 +1,3 @@
+# Firebase Data Persistence Issue with Complex Objects
+
+This repository demonstrates a bug encountered while using Firebase's local persistence with complex object structures.  Despite enabling local persistence, data containing nested arrays and maps would fail to persist between app sessions.  The solution provided addresses the issue by refactoring the complex object into a more suitable data structure, mitigating the persistence problem and providing a workaround for similar situations involving nested structures with Firebase's data persistence.
